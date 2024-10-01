@@ -3,7 +3,7 @@ import numpy as np
 
 class WebcamCamera:
     def __init__(self):
-        print("Loading webcam")
+        print("Loading video")
         # Khởi tạo video capture với webcam (0 là id mặc định của webcam đầu tiên)
         self.cap = cv2.VideoCapture(0)
         
